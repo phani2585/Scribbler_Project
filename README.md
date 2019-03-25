@@ -1,10 +1,17 @@
 # Scribbler_Project
 This repository is created for the Front End Group Project 
 
-Branches:
-------
+GitHub Collabaration:
+---------------
 
-![image](https://user-images.githubusercontent.com/47784012/54914582-4ad9a680-4f1b-11e9-93f0-93dcf3e445da.png)
+![image](https://user-images.githubusercontent.com/47784012/54915122-7315d500-4f1c-11e9-984b-fc54df613c6a.png)
+![image](https://user-images.githubusercontent.com/47784012/54915167-8b85ef80-4f1c-11e9-8c9d-8449514ca8af.png)
+![image](https://user-images.githubusercontent.com/47784012/54915245-b83a0700-4f1c-11e9-938e-1f94e4873d3b.png)
+![image](https://user-images.githubusercontent.com/47784012/54915291-d0118b00-4f1c-11e9-9738-4995c3547ea8.png)
+![image](https://user-images.githubusercontent.com/47784012/54915328-ddc71080-4f1c-11e9-8b72-f2febe5c6ae5.png)
+![image](https://user-images.githubusercontent.com/47784012/54915349-e9b2d280-4f1c-11e9-9884-bcabe8cd8e57.png)
+![image](https://user-images.githubusercontent.com/47784012/54915387-f7685800-4f1c-11e9-809a-ab999cb328d5.png)
+
 
 Phani => I have pushed my part of the code to github.
 -------------
@@ -40,6 +47,5 @@ Next status calls:
 
 31-03-2019 => Fail Safe (Last resort)
 
-GitHub Collabaration:
----------------
+
 
