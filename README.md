@@ -1,8 +1,9 @@
 # Scribbler_Project
 This repository is created for the Front End Group Project 
 
-Phani => I have pushed my part of the code to github.
+Remote repository (link to be submitted => Final Deliverable) : https://github.com/phani2585/Scribbler_Project
 -------------
+Branches remote :
 
 
 To do :
