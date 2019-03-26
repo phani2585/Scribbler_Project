@@ -3,8 +3,14 @@ This repository is created for the Front End Group Project
 
 Remote repository (link to be submitted => Final Deliverable) : https://github.com/phani2585/Scribbler_Project
 -------------
-Branches remote :
+Branches remote : 
 
+![image](https://user-images.githubusercontent.com/44507567/54991204-6eb3ef80-4fe2-11e9-9994-3feecfb1cfef.png)
+---------
+Branches local :
+
+![image](https://user-images.githubusercontent.com/44507567/54991389-dbc78500-4fe2-11e9-973f-213e5f00cadc.png)
+----------
 
 To do :
 ----------------
