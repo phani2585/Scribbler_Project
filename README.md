@@ -12,32 +12,31 @@ Branches local :
 ![image](https://user-images.githubusercontent.com/44507567/54991389-dbc78500-4fe2-11e9-973f-213e5f00cadc.png)
 ----------
 
-To do :
+To do : ( Please follow guidelines as shared . Feel free to let us know any changes if required .)
 ----------------
 
-Deepa => Please fill the gaps of Part A as defined in Problem Statement.
+Deepa and Phani  => Part A as per problem Statement.
 
 -----------
 
-Ghanshyam => Part B as per problem statement
+Sanjay => Part B as per problem statement
+
 
 -------------
 
-Sanjay => Part C as per problem statement
+Ghanshyam => Part C as per problem statement
 
 ------------
 
-
-
 Next status calls:
-25-03-2019 => Please fix some time and Please DO attend the call.
+-------
 
-28-03-2019 => Final deliverables
+30-03-2019 or 31-03-2019 => Team members to decide upon the timing of the call.Promise for the Future.
 
-30-03-2019 => Submitting Assignment( GitHub Repo Link)
+03-04-2019 => Status Call to check progress.Promise for the Future.
+
+06-04-2019 => Self Evaluation. Submitting Assignment upon team satisfaction ( GitHub Repo Link)
 
 ---------------
 
-
-
-31-03-2019 => Fail Safe (Last resort)
+07-04-2019 => Fail Safe (Last resort) . Estimate min and max scores after submission as per efforts put in.
