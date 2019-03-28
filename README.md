@@ -41,7 +41,7 @@ Next status calls:
 
 07-04-2019 => Fail Safe (Last resort) . Estimate min and max scores after submission as per efforts put in.
 
-Currently our code looks like this :
+Currently our code looks like this : as on 28th March 2019
 -------
 1.Header 
 ![image](https://user-images.githubusercontent.com/44507567/55071093-b05d9c80-50ad-11e9-9786-2c41c1db74df.png)
@@ -54,4 +54,8 @@ Currently our code looks like this :
 
 4.CreatePost Modal
 ![image](https://user-images.githubusercontent.com/44507567/55071298-3ed21e00-50ae-11e9-9515-f2cf774e2ead.png)
+
+5.Post.html Page ( contributed by our Team Member - Ghanshyam)
+![image](https://user-images.githubusercontent.com/44507567/55150498-3d6a2980-5172-11e9-94d0-b651ed1a26e6.png)
+
 
