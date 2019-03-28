@@ -83,7 +83,7 @@ allpostsbtn.onclick = function() {
   window.location.href = "html/bloglist.html";
 }
 
-//When the user clicks on Sign Up hyperlink in the Signin Modal
+//When the user clicks on Sign Up hyperlink in the Signin Modal, redirect to Sign Up Modal
 $(document).ready(function() {
 
   if(window.location.href.indexOf('#myModal') != -1) {
