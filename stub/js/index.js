@@ -1,4 +1,4 @@
-// Get the modal
+// Get the signin modal
 var signinmodal = document.getElementById('sign-in-modal');
 
 // Get the button that opens the modal
@@ -24,7 +24,7 @@ window.onclick = function(event) {
   }
 }
 
-// Get the modal
+// Get the signup modal
 var signupmodal = document.getElementById('sign-up-modal');
 
 // Get the button that opens the modal
@@ -50,7 +50,7 @@ window.onclick = function(event) {
   }
 }
 
-// Get the modal
+// Get the create post modal
 var createpostmodal = document.getElementById('create-post-modal');
 
 // Get the button that opens the modal

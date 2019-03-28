@@ -1,38 +1,11 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
-.topButtons {
- width: 90px;
- padding: 10px;
- cursor: pointer;
- font-weight: 500;
- font-size: 90%;
- background: #0000ff;
- color: #fff;
- float: right;  
- margin: 10px 10px 0px 0px;
- font-family: Arial, Helvetica, sans-serif;               
-}
-.postButtons {
+.header{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 90%;
-    color: black;
-    margin: 10px 10px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    
- }
- #left-btn.postButtons{
-    float:left;
- }
- input.postButtons{
-     background-color: darkgoldenrod;
- }
+    justify-content: space-between;
+}
+
 .logo-title {
     font-family: 'Satisfy', cursive;
     font-size: 50px;
@@ -46,4 +19,43 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     margin-top: 0;
     margin: 0 0 0px 10px;
 }
+.postButtons {
+    display: flex;
+    justify-content: center;
+    color: black; 
+    font-weight: 600; 
+    font-size: 90%; 
+    font-family: 'Josefin Sans', sans-serif; 
+    padding: 10px;
+    margin: 10px 10px 0px 0px; 
+ }
+ #left-btn.postButtons{
+    float:left;
+ }
+ input.postButtons{
+     background-color: darkgoldenrod;
+ }
+ .postButtons:hover {
+    opacity: 0.8;
+    
+}
+.topButtons {
+    width: 90px;
+    background: #0000ff;
+    color: white;
+    font-weight: 500; 
+    font-size: 90%; 
+    font-family: 'Josefin Sans', sans-serif; 
+    padding: 10px;
+    margin: 10px 10px 0px 0px;
+                   
+}
+ .topButtons:hover {
+    opacity: 0.8;
+    color:black;
+    cursor: pointer;
+}
+
+
+
 
