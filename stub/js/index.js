@@ -78,6 +78,10 @@ window.onclick = function(event) {
 
 
 //When the user clicks on AllPosts, redirect to bloglist.html
+var allpostsbtn = document.getElementById("all-posts-btn");
+allpostsbtn.onclick = function() {
+  window.location.href = "html/bloglist.html";
+}
 
 //When the user clicks on Sign Up hyperlink in the Signin Modal
 $(document).ready(function() {
