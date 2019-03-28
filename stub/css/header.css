@@ -19,6 +19,11 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     margin-top: 0;
     margin: 0 0 0px 10px;
 }
+div.postButtons {
+    position: absolute;
+    top: 42%;
+    left: 42%;
+}
 .postButtons {
     display: flex;
     justify-content: center;
@@ -28,7 +33,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     font-family: 'Josefin Sans', sans-serif; 
     padding: 10px;
     margin: 10px 10px 0px 0px; 
- }
+}
  #left-btn.postButtons{
     float:left;
  }
