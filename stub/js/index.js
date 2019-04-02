@@ -44,11 +44,12 @@ signupspan.onclick = function() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.addEventListener('click' , function(event) {
   if (event.target == signupmodal) {
     signupmodal.style.display = "none";
   }
-}
+});
+
 
 // Get the modal
 var createpostmodal = document.getElementById('create-post-modal');
@@ -70,12 +71,12 @@ createpostspan.onclick = function() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == createpostmodal) {
-    createpostmodal.style.display = "none";
-  }
-}
 
+window.addEventListener('click' , function(event) {
+  if (event.target == createpostmodal) {
+  createpostmodal.style.display = "none";
+     }
+});
 
 //When the user clicks on AllPosts, redirect to bloglist.html
 

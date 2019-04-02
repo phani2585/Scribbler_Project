@@ -1,50 +1,11 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-button:hover {
- opacity:1;
-}
-.topButtons {
- width: 90px;
- padding: 10px;
- cursor: pointer;
- font-weight: 500;
- font-size: 90%;
- background: #0000ff;
- color: #fff;
- float: right;  
- margin: 10px 10px 0px 0px;
- font-family: Arial, Helvetica, sans-serif;               
-}
-.postButtons {
+
+.header{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 90%;
-    color: black;
-    margin: 10px 10px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    
- }
- #left-btn.postButtons{
-    float:left;
- }
- input.postButtons{
-     background-color: darkgoldenrod;
- }
+    justify-content: space-between;
+}
+
 .logo-title {
     font-family: 'Satisfy', cursive;
     font-size: 50px;
@@ -53,9 +14,26 @@ button:hover {
     text-decoration: none;
     margin: 10px 10px 0px 10px;    
 }
+
 .middleText {
     font-family: 'Marck Script', cursive;
     margin-top: 0;
     margin: 0 0 0px 10px;
 }
+
+.topButtons {
+    float: right;   
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-right: 8px;
+    margin-top:2px;  
+    font-size: 10px;
+    border: 1px solid grey;  
+    width: 70px;
+    cursor: pointer;
+                        
+}
+
+
 
