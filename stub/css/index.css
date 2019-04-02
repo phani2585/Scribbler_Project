@@ -160,4 +160,24 @@ button:hover {
    cursor: pointer;
  }
 
-                                 
+  /*css for All Posts & Create Post button here*/
+ .postButtons{
+   display:block;
+   position:absolute;
+   top: 38%;
+   left:42%;
+  
+}
+
+.Post-Buttons{
+
+   background-color: rgb(207, 181, 59);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   font-weight:bold;
+   height: 38px;
+   margin: 4px;
+   padding: 8px 12px 10px 10px;
+   
+      
+   }      
