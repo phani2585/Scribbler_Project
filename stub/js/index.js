@@ -17,6 +17,12 @@ signinspan.onclick = function() {
   signinmodal.style.display = "none";
 }
 
+//When the user clicks on Sign Up hyperlink in the Signin Modal
+SignUp.onclick = function() {
+  signupmodal.style.display = "block";
+  signinmodal.style.display = "none";
+}
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == signinmodal) {
@@ -24,7 +30,10 @@ window.onclick = function(event) {
   }
 }
 
-// Get the modal
+
+
+/************************sign up************************************* */
+// t the modal
 var signupmodal = document.getElementById('sign-up-modal');
 
 // Get the button that opens the modal
@@ -79,12 +88,7 @@ window.addEventListener('click' , function(event) {
 });
 
 //When the user clicks on AllPosts, redirect to bloglist.html
-
-//When the user clicks on Sign Up hyperlink in the Signin Modal
-$(document).ready(function() {
-
-  if(window.location.href.indexOf('#myModal') != -1) {
-    $('#myModal').modal('show');
-  }
-
-});
+var allposts = document.getElementById("all-posts-btn");
+allposts.onclick = function() {
+  window.location.href = "html/bloglist.html";
+}

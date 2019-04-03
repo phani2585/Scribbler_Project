@@ -11,82 +11,108 @@ body{
 } 
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
-body, html {
-   height: 100%;
+
+/******************************************Sign in **************************************************/
+/* div sign in modal main class*/
+.modalClass{
+
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
  }
+ 
 
-@media (min-width: 992px) {
-   .modalContent {
-       width: 30%;
-   }
+ /*Div Sign In Modal content*/
+.signin-modal-content{
+ 
+ position: fixed; 
+ left: 35%;
+ top: 10%;
+ 
+ background-color: rgb(255, 255, 255); 
+ width:25%;
+ height:55%;
+
+ border:1px solid #888;
+ padding: 5px;
+ margin:5% 6%;
+ 
+ 
+}
+/*Div Sign up Modal content*/
+.signup-modal-content{
+ 
+
+ position: fixed; 
+ left: 31%;
+ top: 3%;
+  
+ background-color: rgb(255, 255, 255); 
+ width:25%;
+ height:75%;
+
+ border:1px solid #888;
+ padding: 5px;
+ margin:5% 10%;
+ 
 }
 
+
+/* form for sign in ,sign up*/
 form {
-   display: flex;
-   flex-direction: column;
-   width:70%;
-}
+   display: flex;	  
+   flex-direction: column;	   
+   justify-content: center;
+}	
+/* header for sign in and sign up*/
+h1{
+   text-align:center;
+   font-style: normal;  
+ }
+/* labels for the username ,password*/
 .label-text {
-   font-weight: bold;
-   padding-inline-start: 0%;
+ font-weight: bold;
+ margin-top: 15px;
 }
-
-input[type=text], input[type=password] {
-   width: 144%;
-   padding: 10px;
-   margin-top: 5px;
-   margin-bottom:10px;
-   display: inline-block;
-   border: none;
-   box-sizing: border-box;
-   padding: 10px;
-   outline: none;
-   background-color:rgb(220,220,220);
+/* username and password inputs*/
+input[type=text], input[type=password] {	
+   width: 100%;	
+   padding: 10px;	  
+   margin-top: 5px;	   
+   margin-bottom:10px;	  
+   display: inline-block;	
+   border: none;	   
+   box-sizing: border-box;	
+   padding: 10px;	
+   outline: none;	
+   background-color:rgb(220,220,220);	   
 }
-input.createPostModal{
-   width: 50%;
-}
-button {
-   background-color: #4CAF50;
-   color: #fff;
-   font-size: 16px;
-   padding: 10px;
-   margin-top: 10px;
-   border: none;
-   cursor: pointer;
-   width: 144%;
-}
+/* Code for sign in ans sign up button*/
+button {	
+   background-color: #4CAF50;	  
+   margin-top: 10px;	   
+   border: none;	  
+   cursor: pointer;	   
+   width: 100%;
+   padding: 10px;	  	
+ }
 button:hover {
    opacity: 0.8;
  }
- 
-.signInModal {
-   display: none; /* Hidden by default */
-   position: fixed; 
-   vertical-align: middle;
-   z-index: 1; 
-   left: 20%;
-   top: 10%;
-   width: 50%; 
-   height: 50%; 
-   overflow: auto; 
-   background-color: rgb(255, 255, 255); 
-}
- #sign-in-modal.signInModal {
-   top:20%;
-   left: 33.33%;
-   width: 500px;
-   height: 500px;
-}
- #sign-in-modal-content.modalContent {
-   background-color: #fefefe;
-   padding: 20px;
-   width: 80%; 
-   position: absolute;
-   top: 33.33%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   padding: 2em;
+ /*Making the text "Welcome back" align at the center and font-Style */
+ h1{
+   text-align:center;
+   font-style: normal;  
+ }
+ #p-signInFooter{
+   text-align: center;
  }
  .signInFooter {
     float:bottom;
@@ -98,33 +124,7 @@ button:hover {
    color: #186CA3;
    text-decoration: none;
 }
- .signUpModal {
-   display: none; 
-   position: fixed; 
-   vertical-align: middle;
-   z-index: 1;
-   left: 20%;
-   top: 10%;
-   width: 50%; 
-   height: 50%; 
-   overflow: auto;
-   background-color: rgb(255, 255, 255); 
- }
- #sign-up-modal.signUpModal{
-   top: 20%;
-   left: 33.33%;
-   width: 400px;
-   height: 550px;
- }
- #sign-up-modal-content.modalContent {
-   background-color: #fefefe;
-   width: 90%; 
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-    
- }
+ 
  .createPostModal{
       display: none; /* Hidden by default */
       position: fixed; 
@@ -147,6 +147,9 @@ button:hover {
    transform: translate(-50%, -50%);
     
  }
+ input.createPostModal{
+   width: 50%;
+}
  .close {
    color: #aaa;
    float: right;
