@@ -32,9 +32,7 @@
                     
                 </div>
                 
-            </div>
-                
-         
+        </div> 
          <!-- Insert code for All Posts & Create Post button here -->
         <div class="postButtons">
             <input id="all-posts-btn" class="Post-Buttons" type="button" value="All Posts">
@@ -86,22 +84,27 @@
             
         </div>
 
-    <div>
-
-    <!-- Insert code for Create Post modal here -->
-    <div id="create-post-modal" class="modalClass">
-            <div id="create-post-modal-content" class="create-post-modal-Content">
-                <h1 style="text-align:center;"><b>Pen your Post</b><span class="close">&times;</span></h1>
-                <form id="create-post-form" name="CreatePostForm">
-                        <label for="title" class="label-text">Title:</label>
-                        <input type="text" id="title" >
-                        <label for="content" class="label-text">Content:</label>
-                        <textarea id="content" rowspan="50" colspan="50"></textarea>
-                        <button type="submit" onclick="createpost(title,content)" class="create-post-btn">Create</button>
-                </form>
-            </div>
     </div>
 
+    <!-- Insert code for Create Post modal here -->
+
+
+    <div  id="create-modal-Post" class="modalClass" >
+            <div id="create-post-modal-content" class="createpost-modal-content">
+              
+                    
+                    <h1 class = "createpost-header-class"><b>Pen your Post</b><span id = "creatpost-close" class="close">&times;</span></h1>
+                    
+                    <form id="create-post-form" name="CreatePostForm">
+                        <label for="title" class="label-text">Title:</label>
+                        <input type="text" id="createpost-title" >
+                        <label for="content" class="label-text">Content:</label>
+                        <textarea id="content" rows="23%" cols="100%"></textarea>
+                        <button type="submit" onclick="createpost(title,content)" class="createpost-btn">Create</button>
+                    </form>
+            </div>
+    </div>
+            
     
 
 	<!-- Place all Javascript for header in this file -->

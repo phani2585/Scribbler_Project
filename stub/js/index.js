@@ -33,7 +33,7 @@ window.onclick = function(event) {
 
 
 /************************sign up************************************* */
-// t the modal
+// get the modal
 var signupmodal = document.getElementById('sign-up-modal');
 
 // Get the button that opens the modal
@@ -59,9 +59,10 @@ window.addEventListener('click' , function(event) {
   }
 });
 
+/******************************create post******************************* */
 
-// Get the modal
-var createpostmodal = document.getElementById('create-post-modal');
+// Get the create post modal
+var createpostmodal = document.getElementById('create-modal-Post');
 
 // Get the button that opens the modal
 var createpostbtn = document.getElementById("create-post-btn");
@@ -80,11 +81,10 @@ createpostspan.onclick = function() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-
 window.addEventListener('click' , function(event) {
   if (event.target == createpostmodal) {
-  createpostmodal.style.display = "none";
-     }
+    createpostmodal.style.display = "none";
+  }
 });
 
 //When the user clicks on AllPosts, redirect to bloglist.html
