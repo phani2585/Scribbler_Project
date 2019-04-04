@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Place all CSS for header in this file -->
-    <link href='css/header.css' rel='stylesheet' type='text/css'>
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
 
     <!-- Place all CSS for the rest of the elements in this file -->
-    <link href='css/index.css' rel='stylesheet' type='text/css'>
-    
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
 	<!-- Place all CSS for fonts in this file -->
-    <link href='css/font.css' rel='stylesheet' type='text/css'>
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -20,83 +17,44 @@
 
         <div class="header">
 
-            <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
-            <input id="sign-in-btn" class="topButtons" type="button" value="Sign In">
-            <input id="sign-up-btn" class="topButtons" type="button" value="Sign Up">
-            <a id="pageTitle" class="logo-title">ScriBBler</a>
-            <p class="middleText">Explore, Imagine, Create</p>
-            <p> test </p>
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <button class="block1">Sign Up</button>
+            <button class="block2" >Sign In</button>
+            <header>ScriBBler</header>
+            <h6>Explore, Imagine, Create</h6>
+
 
         </div>
            
         <div class="postButtons">
 
-            <!-- Insert code for All Posts & Create Post button here -->
-            <input class="postButtons" id="all-posts-btn" type="button" value="All Posts">
-            <input class="postButtons" id="create-post-btn" type="button" value="Create Post">
-           
+        	<!-- Insert code for All Posts & Create Post button here -->
+            <button class="btn">All Posts</button>
+            <button class="btn">Create Post</button>
+
         </div>
-        <!-- Insert code for Sign In modal here -->
-        <div id="sign-in-modal" class="signInModal">
-       
-        <div id="sign-in-modal-content" class="modalContent">
-            <h1 style="text-align:center;"><b>Welcome Back!</b><span class="close">&times;</span></h1>
-            <hr>
-            
-        <form id="signin-form" name="SigninForm">
-                
-                <label for="username" class="label-text">Username</label>
-                <input type="text" id="username" placeholder="Enter Username" required>
-                <label for="password" class="label-text">Password</label>
-                <input type="password" id="password" placeholder="Enter Password" required>
-                <button type="submit" onclick="signin(username, password)" class="signin-btn">Sign In</button>
-                
-            </form>
-            <div class="signInFooter">
-                    <p style="text-align: center;"><b>Not a Member?<a href="sign-up-modal"> Sign Up</a></b>
-                        
-                    </p>
-                </div>
-        </div>
-        
-    	
     </div>
-    <!-- Insert code for Sign Up modal here -->
-    <div id="sign-up-modal" class="signUpModal">
-       
-        <div id="sign-up-modal-content" class="modalContent">
-                <h1 style="text-align:center;"><b>Get Started</b><span class="close">&times;</span></h1>
-                <hr>  
-            <form id="signup-form" name="SignupForm">
-                    <label for="fullname" class="label-text">Full Name</label>
-                    <input type="text" id="fullname" placeholder="Enter Full Name" required>
-                    <label for="username" class="label-text">Username</label>
-                    <input type="text" id="username" placeholder="Enter Username" required>
-                    <label for="password" class="label-text">Password</label>
-                    <input type="password" id="password" placeholder="Enter Password" required>
-                    <label for="confirmpassword" class="label-text">Confirm Password</label>
-                    <input type="password" id="confirmpassword" placeholder="Confirm Password" required>
-                    <button type="submit" onclick="signup(fullname,username, password,confirmpassword)" class="signup-btn">Sign Up</button>
-                   
-                </form> 
-            </div>
-        </div>
 
     <div>
 
-        <!-- Insert code for Create Post modal here -->
-        <div id="create-post-modal" class="createPostModal">
-            <div id="create-post-modal-content" class="modalContent">
-                <h1 style="text-align:center;"><b>Pen your Post</b><span class="close">&times;</span></h1>
-                <form id="create-post-form" name="CreatePostForm">
-                        <label for="title" class="label-text">Title:</label>
-                        <input type="text" id="title" >
-                        <label for="content" class="label-text">Content:</label>
-                        <textarea id="content" rowspan="50" colspan="50"></textarea>
-                        <button type="submit" onclick="createpost(title,content)" class="create-post-btn">Create</button>
-                </form>
-            </div>
-        </div>
+    	<!-- Insert code for Sign In modal here -->
+
+
+
+
+
+
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Sign Up modal here -->
+
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Create Post modal here -->
 
     </div>
 
@@ -105,6 +63,6 @@
 	<!-- Place all Javascript for rest of the elements in this file -->
     <script src="js\index.js"></script>
 
-</div>
+
 </body>
 </html>
