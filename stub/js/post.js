@@ -28,14 +28,17 @@ function addComment(id){
 
 var titleConetnt = document.getElementById('blogTitleNew');
 var contentText = document.getElementById('blogBody');
+var editButton = document.getElementById('editButton');
+var saveButton =  document.getElementById('saveButton')
 // edit and save the content
 function editContent(){
     contentText.contentEditable="true";
     titleConetnt.contentEditable="true";
     contentText.style.border="1px solid red";
     titleConetnt.style.border="1px solid red";
-    document.getElementById('editButton').style.display="none";
-    document.getElementById('saveButton').style.display="block";
+    editButton.style.display="none";
+    saveButton.style.display="block";
+    contentText.focus();
 }
 
 function saveContent(){
@@ -43,6 +46,6 @@ function saveContent(){
     titleConetnt.contentEditable="false";
     contentText.style.border="none";
     titleConetnt.style.border="none";
-    document.getElementById('editButton').style.display="block";
-    document.getElementById('saveButton').style.display="none"; 
+    editButton.style.display="block";
+    saveButton.style.display="none"; 
 }
