@@ -1,4 +1,4 @@
-// Get the modal
+// Get the signin modal
 var signinmodal = document.getElementById('sign-in-modal');
 
 // Get the button that opens the modal
@@ -31,9 +31,6 @@ window.onclick = function(event) {
 }
 
 
-
-/************************sign up************************************* */
-// get the modal
 var signupmodal = document.getElementById('sign-up-modal');
 
 // Get the button that opens the modal
@@ -59,10 +56,15 @@ window.addEventListener('click' , function(event) {
   }
 });
 
+
 /******************************create post******************************* */
 
 // Get the create post modal
 var createpostmodal = document.getElementById('create-modal-Post');
+=======
+// Get the create post modal
+var createpostmodal = document.getElementById('create-post-modal');
+
 
 // Get the button that opens the modal
 var createpostbtn = document.getElementById("create-post-btn");
@@ -88,7 +90,17 @@ window.addEventListener('click' , function(event) {
 });
 
 //When the user clicks on AllPosts, redirect to bloglist.html
+
 var allposts = document.getElementById("all-posts-btn");
 allposts.onclick = function() {
   window.location.href = "html/bloglist.html";
 }
+
+var allpostsbtn = document.getElementById("all-posts-btn");
+allpostsbtn.onclick = function() {
+  window.location.href = "html/bloglist.html";
+}
+
+//When the user clicks on Sign Up hyperlink in the Signin Modal, redirect to Sign Up Modal
+//code to be added 
+
