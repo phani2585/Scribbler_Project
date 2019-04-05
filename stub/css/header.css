@@ -1,6 +1,8 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
+
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -36,10 +38,17 @@ div.postButtons {
 }
  #left-btn.postButtons{
     float:left;
+
  }
- input.postButtons{
-     background-color: darkgoldenrod;
+ h6{
+ 	color: black;
+ 	font-family: cursive;
+ 	font-size: 15px;
+ 	margin: 2px 0px 0px 2px;
+ 	font-weight: normal;
  }
+
+=======
  .postButtons:hover {
     opacity: 0.8;
     
@@ -64,3 +73,4 @@ div.postButtons {
 
 
 
+ 
