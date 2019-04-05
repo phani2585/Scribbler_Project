@@ -10,98 +10,29 @@ body{
    display: block;
 } 
 
-
-/*Style set for the rest of the elements besides the header elements on the index.html page */
-#main-container-div {
-   height: 100vh;
-}
-
-.modalContainer {
-   display: none; /* Hidden by default */
-   position: fixed; 
-   vertical-align: middle;
-   z-index: 1; 
-   left: 33.33%;
-   top: 20%;
-   overflow: auto; 
-   background-color: rgb(255, 255, 255); 
-}
-#sign-in-modal.modalContainer {
-   width: 400px;
-   height: 450px;
-   padding: 20px;
-}
-#sign-up-modal.modalContainer {
-   width: 300px;
-   height: 500px;
-   padding:20px;
-}
-#create-post-modal.modalContainer {
-   left:10%;
-   top:5%;
-   width:80em;
-   height:90%;
-   padding: 20px;
-}
-
-form {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-
-.label-text {
-   font-weight: bold;
-}
-
-input[type=text], input[type=password] {
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
    
-   padding: 10px;
-   margin-top: 5px;
-   margin-bottom:10px;
-   border: none;
-   background-color:rgb(220,220,220);
+
+ .postButtons {
+  display: flex;
+  height: 700px;
+  align-items: center;
+  width: 500px;
+  margin-left: 550px;
 }
-input#title {
-   margin-right: 50%;
+
+                           
+
+.btn{
+	background-color: #cc9900;
+	color: black;
+	font-weight: bold;
+	float:center;
+    display:flex;
+    align-items: center;
+   	margin-right: 10px;
+   	padding : 5px 5px 5px 5px;
+
+    
 }
-button {
-   background-color: #4CAF50;
-   color: #fff;
-   font-size: 16px;
-   padding: 10px;
-   margin-top: 10px;
-   border: none;
-   cursor: pointer;
-  
-}
-button:hover {
-   opacity: 0.8;
- }
-
- button.create-post-btn {
-    width:15%;
-    margin-left: 42.5%;
-
- }
-
- .signInFooter {
-    float:bottom;
-    font-family:'none';
-    text-align: center;
- }
- .close {
-   color: #aaa;
-   float: right;
-   font-size: 28px;
-   font-weight: bold;
- }
- .close:hover,
- .close:focus {
-   color: black;
-   text-decoration: none;
-   cursor: pointer;
- }
-
-                              
 

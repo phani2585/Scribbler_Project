@@ -1,11 +1,28 @@
-var c=0;
-function pop() {
-  if(c==0){
-    document.getElementById("box").style.display = "block";
-    c=1;
-  } else {
-     document.getElementById("box").style.display = "none";
-    c=0;
-  }
-  
+var deleteBtn = document.getElementsByClassName('deleteBlog');
+
+var popUpAlter = document.getElementById('modalPopUp');
+
+deleteBtn[0].onclick = function(){
+    popUpAlter.style.display="block";
+}
+
+deleteBtn[1].onclick = function(){
+    popUpAlter.style.display="block";
+}
+
+deleteBtn[2].onclick = function(){
+    popUpAlter.style.display="block";
+}
+
+deleteBtn[3].onclick = function(){
+    popUpAlter.style.display="block";
+}
+
+deleteBtn[4].onclick = function(){
+    popUpAlter.style.display="block";
+}
+var closeBtn = document.getElementById('cancel_delete');
+
+closeBtn.onclick= function(){
+    popUpAlter.style.display="none";
 }
