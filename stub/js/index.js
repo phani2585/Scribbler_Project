@@ -1,3 +1,4 @@
+
 // Get the signin modal
 var signinmodal = document.getElementById('sign-in-modal');
 
@@ -103,4 +104,6 @@ allpostsbtn.onclick = function() {
 
 //When the user clicks on Sign Up hyperlink in the Signin Modal, redirect to Sign Up Modal
 //code to be added 
+
+=======
 
