@@ -9,74 +9,52 @@
     <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
     <link href='css/header.css' rel="stylesheet" type="text/css" >
     <link href='css/index.css' rel='stylesheet' type='text/css'>
-
-    <style>
-    </style>
 </head>
 <body>
     <div id="main-container-div">
   <div class="header">
-
-            <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
             <input id="sign-in-btn" class="topButtons" type="button" value="Sign In">
             <input id="sign-up-btn" class="topButtons" type="button" value="Sign Up">
             <a id="pageTitle" class="logo-title">ScriBBler</a>
             <p class="middleText">Explore, Imagine, Create</p>
-            
-           
         </div>
-           
-        
-        <!-- Insert code for Sign In modal here -->
         <div id="sign-in-modal" class="signInModal">
-       
-        <div id="sign-in-modal-content" class="modalContent">
+            <div id="sign-in-modal-content" class="modalContent">
             <h1 style="text-align:center;"><b>Welcome Back!</b><span class="close">&times;</span></h1>
             <hr>
-            
-        <form id="signin-form" name="SigninForm">
-                
+            <form id="signin-form" name="SigninForm">
                 <label for="username" class="label-text">Username</label>
                 <input type="text" id="username" placeholder="Enter Username" required>
                 <label for="password" class="label-text">Password</label>
                 <input type="password" id="password" placeholder="Enter Password" required>
                 <button type="submit" onclick="signin(username, password)" class="signin-btn">Sign In</button>
-                
             </form>
             <div class="signInFooter">
-                    <p style="text-align: center;"><b>Not a Member?<a href="sign-up-modal"> Sign Up</a></b>
-                        
-                    </p>
+                <p style="text-align: center;"><b>Not a Member?<a href="sign-up-modal"> Sign Up</a></b>
+                </p>
                 </div>
         </div>
-        
-    	
     </div>
-    <!-- Insert code for Sign Up modal here -->
     <div id="sign-up-modal" class="signUpModal">
-       
         <div id="sign-up-modal-content" class="modalContent">
-                <h1 style="text-align:center;"><b>Get Started</b><span class="close">&times;</span></h1>
-                <hr>  
+            <h1 style="text-align:center;"><b>Get Started</b><span class="close">&times;</span></h1>
+            <hr>  
             <form id="signup-form" name="SignupForm">
-                    <label for="fullname" class="label-text">Full Name</label>
-                    <input type="text" id="fullname" placeholder="Enter Full Name" required>
-                    <label for="username" class="label-text">Username</label>
-                    <input type="text" id="username" placeholder="Enter Username" required>
-                    <label for="password" class="label-text">Password</label>
-                    <input type="password" id="password" placeholder="Enter Password" required>
-                    <label for="confirmpassword" class="label-text">Confirm Password</label>
-                    <input type="password" id="confirmpassword" placeholder="Confirm Password" required>
-                    <button type="submit" onclick="signup(fullname,username, password,confirmpassword)" class="signup-btn">Sign Up</button>
-                   
-                </form> 
+                <label for="fullname" class="label-text">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter Full Name" required>
+                <label for="username" class="label-text">Username</label>
+                <input type="text" id="username" placeholder="Enter Username" required>
+                <label for="password" class="label-text">Password</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+                <label for="confirmpassword" class="label-text">Confirm Password</label>
+                <input type="password" id="confirmpassword" placeholder="Confirm Password" required>
+                <button type="submit" onclick="signup(fullname,username, password,confirmpassword)" class="signup-btn">Sign Up</button>
+            </form> 
             </div>
         </div>
-
     <div>
-
-<div class="allPostsContainer">
-    <div class="post">
+<div class="allPostsContainer"></div>
+<div class="post">
         <div class="post-left">
             <p class="post-username">Jimi</p>
         </div>
