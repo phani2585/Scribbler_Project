@@ -1,4 +1,3 @@
-
 var deleteBtn = document.getElementsByClassName('deleteBlog');
 
 var popUpAlter = document.getElementById('modalPopUp');
@@ -22,7 +21,7 @@ deleteBtn[3].onclick = function(){
 deleteBtn[4].onclick = function(){
     popUpAlter.style.display="block";
 }
-var closeBtn = document.getElementById('cancel_delete');
+var closeBtn = document.getElementById('noClose');
 
 closeBtn.onclick= function(){
     popUpAlter.style.display="none";

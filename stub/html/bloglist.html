@@ -7,54 +7,74 @@
     <link href='..\css\header.css' rel='stylesheet' type='text/css'>
     <link href='..\css\font.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href='css/header.css' rel="stylesheet" type="text/css" >
-    <link href='css/index.css' rel='stylesheet' type='text/css'>
+    <style>
+    </style>
 </head>
 <body>
     <div id="main-container-div">
-  <div class="header">
-            <input id="sign-in-btn" class="topButtons" type="button" value="Sign In">
-            <input id="sign-up-btn" class="topButtons" type="button" value="Sign Up">
-            <a id="pageTitle" class="logo-title">ScriBBler</a>
-            <p class="middleText">Explore, Imagine, Create</p>
-        </div>
-        <div id="sign-in-modal" class="signInModal">
-            <div id="sign-in-modal-content" class="modalContent">
-            <h1 style="text-align:center;"><b>Welcome Back!</b><span class="close">&times;</span></h1>
-            <hr>
-            <form id="signin-form" name="SigninForm">
-                <label for="username" class="label-text">Username</label>
-                <input type="text" id="username" placeholder="Enter Username" required>
-                <label for="password" class="label-text">Password</label>
-                <input type="password" id="password" placeholder="Enter Password" required>
-                <button type="submit" onclick="signin(username, password)" class="signin-btn">Sign In</button>
-            </form>
-            <div class="signInFooter">
-                <p style="text-align: center;"><b>Not a Member?<a href="sign-up-modal"> Sign Up</a></b>
-                </p>
-                </div>
-        </div>
-    </div>
-    <div id="sign-up-modal" class="signUpModal">
-        <div id="sign-up-modal-content" class="modalContent">
-            <h1 style="text-align:center;"><b>Get Started</b><span class="close">&times;</span></h1>
-            <hr>  
-            <form id="signup-form" name="SignupForm">
-                <label for="fullname" class="label-text">Full Name</label>
-                <input type="text" id="fullname" placeholder="Enter Full Name" required>
-                <label for="username" class="label-text">Username</label>
-                <input type="text" id="username" placeholder="Enter Username" required>
-                <label for="password" class="label-text">Password</label>
-                <input type="password" id="password" placeholder="Enter Password" required>
-                <label for="confirmpassword" class="label-text">Confirm Password</label>
-                <input type="password" id="confirmpassword" placeholder="Confirm Password" required>
-                <button type="submit" onclick="signup(fullname,username, password,confirmpassword)" class="signup-btn">Sign Up</button>
-            </form> 
+        <div class="header">
+            <div>
+                <!--Add code for "ScriBBler" heading and the sub-heading -->
+                <a id="pageTitle" class="logo-title">ScriBBler</a>
+                <p class="middleText">Explore, Imagine, Create</p>
+            </div>
+            <div>
+                <!-- Insert code for Sign Up, Sign In button here -->
+                <input id="sign-in-btn" class="topButtons" type="button" value="Sign In">
+                <input id="sign-up-btn" class="topButtons" type="button" value="Sign Up">
             </div>
         </div>
+    </div>
     <div>
-<div class="allPostsContainer"></div>
-<div class="post">
+        <!-- Insert code for Sign In modal here -->
+     <div class="modal" id="modelSignIn"  >
+            <div id="sign-in-modal" class="modalContainer">
+                   <!-- Insert code for Sign In modal here -->
+        
+                        <h1 style="text-align:center;"><b>Welcome Back!</b><span class="close">&times;</span></h1><hr>
+                        
+                        <form id="signin-form" name="SigninForm">
+                            <label for="username" class="label-text">Username</label>
+                            <input type="text" id="username" placeholder="Enter Username" required>
+                            <label for="password" class="label-text">Password</label>
+                            <input type="password" id="password" placeholder="Enter Password" required>
+                            <button type="submit" onclick="signin(username, password)" class="signin-btn">Sign In</button>
+                        </form>
+                        
+                        <div class="signInFooter">
+                            <p style="text-align: center;"><b>Not a Member?<a id="SignUp" href="#" onclick=""> Sign Up</a></b></p>
+                        </div>
+                    </div>
+         </div>
+                  
+    </div>
+
+    <div>
+        <!-- Insert code for Sign Up modal here -->
+        <div class="modal" id="modelSignUp"  >
+            <div id="sign-up-modal" class="modalContainer">
+                <!-- Insert code for Sign Up modal here -->
+                    
+                    <h1 style="text-align:center;"><b>Get Started</b><span class="close">&times;</span></h1><hr>
+                    
+                    <form id="signup-form" name="SignupForm">
+                        <label for="fullname" class="label-text">Full Name</label>
+                        <input type="text" id="fullname" placeholder="Enter Full Name" required>
+                        <label for="username" class="label-text">Username</label>
+                        <input type="text" id="username" placeholder="Enter Username" required>
+                        <label for="password" class="label-text">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password" required>
+                        <label for="confirmpassword" class="label-text">Confirm Password</label>
+                        <input type="password" id="confirmpassword" placeholder="Confirm Password" required>
+                        <button type="submit" onclick="signup(fullname,username, password,confirmpassword)" class="signup-btn">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+
+    </div>
+
+<div class="allPostsContainer">
+    <div class="post">
         <div class="post-left">
             <p class="post-username">Jimi</p>
         </div>
@@ -71,7 +91,7 @@
 
             <!-- Insert code for ... icon here -->
             <div class="post-more">
-                <a href="blankpage.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
+                <a href="post.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
                 </a>
             </div>
         </div>
@@ -95,7 +115,7 @@
             
             <!-- Insert code for ... icon here -->
             <div class="post-more">
-                <a href="blankpage.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
+                <a href="post.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
                 </a>
                </div>
         </div>
@@ -119,7 +139,7 @@
 
             <!-- Insert code for ... icon here -->
             <div class="post-more">
-                <a href="blankpage.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
+                <a href="post.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
                 </a>
                </div>
         </div>
@@ -142,7 +162,7 @@
 
             <!-- Insert code for ... icon here -->
             <div class="post-more">
-                <a href="blankpage.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
+                <a href="post.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
                 </a>
                </div>
 
@@ -166,18 +186,18 @@
                 
                 <!-- Insert code for ... icon here -->
                 <div class="post-more">
-                    <a href="blankpage.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
+                    <a href="post.html" style="color:inherit"> <i class='fa fa-ellipsis-h '></i>
                     </a>
                    </div>
             </div>
     </div>
 </div>
             <!-- Insert code for delete modal here -->
-        <div class="modal" id="modalPopUp">
+        <div class="modal" id="modalPopUp" tabindex="-1">
                 <div class="modal-content">
                     <h4>Are you sure you want to delete this post?</h4>
-                    <button id="confirm_delete" type="submit">Yes</button>
-                    <button id="cancel_delete" type="submit">No</button>
+                    <button id="yesDelete" type="submit">Yes</button>
+                    <button id="noClose" type="submit">No</button>
                 </div>
         </div>
         
