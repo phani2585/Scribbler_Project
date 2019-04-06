@@ -1,3 +1,4 @@
+
 var deleteBtn = document.getElementsByClassName('deleteBlog');
 
 var popUpAlter = document.getElementById('modalPopUp');
