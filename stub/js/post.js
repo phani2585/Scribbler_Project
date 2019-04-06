@@ -1,5 +1,4 @@
 
-
 //like function
 var numberOfClicks=0;
 function postLiked(){
@@ -30,7 +29,7 @@ function addComment(id){
 var titleConetnt = document.getElementById('blogTitleNew');
 var contentText = document.getElementById('blogBody');
 var editButton = document.getElementById('editButton');
-var saveButton =  document.getElementById('saveButton')
+var saveButton = document.getElementById('saveButton');
 // edit and save the content
 function editContent(){
     contentText.contentEditable="true";
@@ -50,4 +49,3 @@ function saveContent(){
     editButton.style.display="block";
     saveButton.style.display="none"; 
 }
-
