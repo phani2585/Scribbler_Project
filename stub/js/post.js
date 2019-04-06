@@ -1,4 +1,5 @@
 
+
 //like function
 var numberOfClicks=0;
 function postLiked(){
@@ -49,3 +50,4 @@ function saveContent(){
     editButton.style.display="block";
     saveButton.style.display="none"; 
 }
+
