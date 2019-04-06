@@ -67,6 +67,8 @@
     background-color:rgb(226, 228, 230);
     padding: 10px;
     width: 59%;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 /* comments list */
@@ -90,9 +92,7 @@ button:active {
     transform: translateY(2px);
   }
 
-h, p{
-    outline: none;
-}
+
 
 
 
