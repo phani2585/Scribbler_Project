@@ -170,7 +170,18 @@ Relevant files to work on: post.html, post.css, post.js
             Ghanshyam to make his own required changes.
             07-04-2019 12AM(MIDNIGHT):
             Guess your score , Self Evaluation before submitting your work. ???
-            Before Deadline => Submit GitHub Link on Upgrad's portal
+            Before Deadline => Submit GitHub Link on Upgrad's portal.
+# Screenshots 
+----------------
+Part_A by Deepa and Phani
+![image](https://user-images.githubusercontent.com/44507567/55674791-e0d7de80-58d6-11e9-9b2f-f10fa3b76f11.png)
+
+![image](https://user-images.githubusercontent.com/44507567/55674821-36ac8680-58d7-11e9-8050-1faf47752f95.png)
+![image](https://user-images.githubusercontent.com/44507567/55674835-652a6180-58d7-11e9-88b4-c00a924e0f6e.png)
+
+![image](https://user-images.githubusercontent.com/44507567/55674855-ad498400-58d7-11e9-958e-cd6deebd9880.png)
+![image](https://user-images.githubusercontent.com/44507567/55674861-c6523500-58d7-11e9-96bf-01d83fac1b34.png)
+
 
 Regards,
 Phani M K MS
