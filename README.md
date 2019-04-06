@@ -154,7 +154,23 @@ Evaluation Rubrics for Part C ( ' )
 ================================================
 Guess your score (Last step of the group project ) !!!
 
+# Tracking progress:
+Part A: Creating the Homepage (phanimkms and deepa are the contributors)
+Relevant files to work on: index.html, index.js, header.js, index.css, header.css
+Part B: Creating list of blogs (ghanshyam is the contributor)
+In this section, we would be creating a page called "bloglist.html" which would display the list of all blog posts.
+Relevant files to work on: bloglist.html, bloglist.css, bloglist.js
+Part C: Creating Blog Post
+In this section, you would be creating the "post.html" page.
+Relevant files to work on: post.html, post.css, post.js
 
+# Final adjustments to code in the repository :
+06-04-2019 : Ghanshyam suggested changes to make the output look similar to the problem statement.
+            phani2585 making the necessary changes in Part_A and Part_C ( after discussing the same with Deepa and Sanjay)
+            Ghanshyam to make his own required changes.
+            07-04-2019 12AM(MIDNIGHT):
+            Guess your score , Self Evaluation before submitting your work. ???
+            Before Deadline => Submit GitHub Link on Upgrad's portal
 
 Regards,
 Phani M K MS
