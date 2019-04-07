@@ -16,7 +16,7 @@ function postLiked(){
         }
     }
 
-//comments function
+//comments function..
 function addComment(id){
    if (id.value.length>0){
     var addEventName = id.value ;

@@ -1,6 +1,6 @@
 
 // Get the signin modal
-var signinmodal = document.getElementById('sign-in-modal');
+var signinmodal = document.getElementById('modelSignIn');
 
 // Get the button that opens the modal
 var signinbtn = document.getElementById("sign-in-btn");
@@ -18,21 +18,19 @@ signinspan.onclick = function() {
   signinmodal.style.display = "none";
 }
 
-//When the user clicks on Sign Up hyperlink in the Signin Modal
 SignUp.onclick = function() {
   signupmodal.style.display = "block";
   signinmodal.style.display = "none";
 }
-
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.addEventListener('click' , function(event) {
   if (event.target == signinmodal) {
     signinmodal.style.display = "none";
   }
-}
+});
 
-
-var signupmodal = document.getElementById('sign-up-modal');
+// Get the signup modal
+var signupmodal = document.getElementById('modelSignUp');
 
 // Get the button that opens the modal
 var signupbtn = document.getElementById("sign-up-btn");
@@ -58,14 +56,8 @@ window.addEventListener('click' , function(event) {
 });
 
 
-/******************************create post******************************* */
-
 // Get the create post modal
-var createpostmodal = document.getElementById('create-modal-Post');
-=======
-// Get the create post modal
-var createpostmodal = document.getElementById('create-post-modal');
-
+var createpostmodal = document.getElementById('modelCreatePost');
 
 // Get the button that opens the modal
 var createpostbtn = document.getElementById("create-post-btn");
@@ -90,13 +82,8 @@ window.addEventListener('click' , function(event) {
   }
 });
 
+
 //When the user clicks on AllPosts, redirect to bloglist.html
-
-var allposts = document.getElementById("all-posts-btn");
-allposts.onclick = function() {
-  window.location.href = "html/bloglist.html";
-}
-
 var allpostsbtn = document.getElementById("all-posts-btn");
 allpostsbtn.onclick = function() {
   window.location.href = "html/bloglist.html";
@@ -104,6 +91,3 @@ allpostsbtn.onclick = function() {
 
 //When the user clicks on Sign Up hyperlink in the Signin Modal, redirect to Sign Up Modal
 //code to be added 
-
-=======
-

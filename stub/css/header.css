@@ -1,21 +1,7 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
 
-
-.middleText {
-    font-family: 'Marck Script', cursive;
-    margin-top: 0;
-    margin: 0 0 0px 10px;
+.header{
     display: flex;
     justify-content: space-between;
 }
@@ -24,55 +10,7 @@ button {
     font-family: 'Satisfy', cursive;
     font-size: 50px;
     color: #112fb4;
-    margin: auto;
-    text-decoration: none;
-    margin: 10px 10px 0px 10px;    
-}
-.middleText {
-    font-family: 'Marck Script', cursive;
-    margin-top: 0;
-    margin: 0 0 0px 10px;
-=======
-button:hover {
- opacity:1;
-}
-.topButtons {
- width: 90px;
- padding: 10px;
- cursor: pointer;
- font-weight: 500;
- font-size: 90%;
- background: #0000ff;
- color: #fff;
- float: right;  
- margin: 10px 10px 0px 0px;
- font-family: Arial, Helvetica, sans-serif;               
-}
-.postButtons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 90%;
-    color: black;
-    margin: 10px 10px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    
- }
- #left-btn.postButtons{
-    float:left;
- }
- input.postButtons{
-     background-color: darkgoldenrod;
- }
-.logo-title {
-    font-family: 'Satisfy', cursive;
-    font-size: 50px;
-    color: #112fb4;
-    margin: auto;
+   
     text-decoration: none;
     margin: 10px 10px 0px 10px;    
 }
@@ -82,30 +20,129 @@ button:hover {
     margin: 0 0 0px 10px;
 }
 
-
-
-
-
 .topButtons {
-    float: right;   
-    background-color: blue;
+    width: 90px;
+    background: #0000ff;
     color: white;
+    font-weight: 500; 
+    font-size: 90%; 
+    font-family: 'Josefin Sans', sans-serif; 
     padding: 10px;
-    margin: 10px 10px 0px 0px;
     border: none;
+    margin: 10px 10px 0px 0px;
                    
 }
  .topButtons:hover {
     opacity: 0.8;
     color:black;
-    margin-right: 8px;
-    margin-top:2px;  
-    font-size: 10px;
-    border: 1px solid grey;  
-    width: 70px;
     cursor: pointer;
 }
 
+/*all model properties are here*/
+.modal{
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+ }
 
 
+/*Style set for the rest of the elements besides the header elements on the index.html page */
+.modalContainer {
+ position: fixed; 
+ left: 37%;
+ top: 5%;
+ overflow: auto; 
+ background-color: rgb(255, 255, 255); 
+}
 
+#sign-in-modal.modalContainer {
+ width: 400px;
+ height: 450px;
+ padding: 0px 20px;
+ top: 10%;
+ left: 35%;
+}
+
+#sign-up-modal.modalContainer {
+ width:  355px;
+ height: 540px;
+ padding: 0px 20px;
+}
+
+#create-post-modal.modalContainer {
+ left:13%;
+ top: 0%;
+ width:71%;
+ height:90%;
+ padding: 20px;
+ margin-top: 10px;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+
+}
+
+.label-text {
+    font-weight: bold;
+    margin-top: 15px;
+ }
+ 
+input[type=text], input[type=password] {
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    background-color:rgb(241, 241, 241);
+}
+ 
+ 
+input#title {
+    margin-right: 50%;
+}
+ 
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 14px;
+    padding: 16px;
+    margin: 15px 0px;
+    border: none;
+    cursor: pointer; 
+}
+
+button:hover {
+    opacity: 0.8;
+}
+ 
+button.create-post-btn {
+     width:15%;
+     margin-left: 42.5%;
+  }
+ 
+.signInFooter {
+     float:bottom;
+     font-family:'none';
+     text-align: center;
+  }
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
